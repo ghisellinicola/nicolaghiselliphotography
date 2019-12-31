@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  xmlns="http://www.w3.org/1999/html">
+<html xmlns="http://www.w3.org/1999/html">
 
 <head>
 
@@ -21,15 +21,24 @@
   <link href="vendor/fontawesome-free/css/fontawesome.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!--<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+  <link href="css/MerriweaterSans.css" rel="stylesheet">
+  <link href='css/Merriweather.css' rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
+  <!-- Flags -->
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">-->
+  <link href="css/flag-icon.css" rel="stylesheet">
+
   <!-- Theme CSS - Includes Bootstrap -->
   <!-- <link href="css/creative.min.css" rel="stylesheet"> -->
   <link href="css/creative.css" rel="stylesheet">
+
+
+  <script src="js/multi-language.js"></script>
 
 </head>
 
@@ -51,40 +60,75 @@
 	  <a class="mr-icon" href="https://www.instagram.com/nicolaghiselli_bnw/?hl=it">
 	    <img class="img-fluid-icon"  src="img/icons/instagram.png" alt="">
 	  </a>
+
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Nicola Ghiselli Photography</a>
+
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+        <ul class="navbar-nav ml-5 mr-n5">
+
+          <span class="mx-5"></span>
+
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#services">Services</a>
+            <a lang="it" class="nav-link js-scroll-trigger" href="#services">Servizi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a lang="it" class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
           <!--
-          </li>
+         <li class="nav-item">
+           <a lang="en" class="nav-link js-scroll-trigger" href="#courses">Courses</a>
+           <a lang="it" class="nav-link js-scroll-trigger" href="#courses">Corsi</a>
+         </li>
+         <li class="nav-item">
+           <a lang="en" class="nav-link js-scroll-trigger" href="#courses">Workshops</a>
+           <a lang="it" class="nav-link js-scroll-trigger" href="#courses">Workshops</a>
+         </li>
+           -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#courses">Courses</a>
-          </li>
-      	  -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#customers">Customers</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#customers">Customers</a>
+            <a lang="it" class="nav-link js-scroll-trigger" href="#customers">Clienti</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#experiences">Experiences</a>
+             <a lang="it" class="nav-link js-scroll-trigger" href="#experiences">Esperienze</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#team">Team</a>
+             <a lang="it" class="nav-link js-scroll-trigger" href="#team">Squadra</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#about">About</a>
+            <a lang="it" class="nav-link js-scroll-trigger" href="#about">Info</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a lang="en" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a lang="it" class="nav-link js-scroll-trigger" href="#contact">Contatti</a>
+          </li>
+          <span class="mx-5"></span>
+          <span class="mx-5"></span>
+
+          <li class="nav-item dropdown ml-lg-5 mr-lg-n5" id="dropdown09">
+            <a lang="en" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!--id="dropdown09"-->
+              <span class="flag-icon flag-icon-gb"  href="#" hreflang="en" onclick="setLang('en'); return false"> </span> English
+            </a>
+            <a lang="it" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!--id="dropdown09"-->
+              <span class="flag-icon flag-icon-it"  href="#" hreflang="it" onclick="setLang('it'); return false"> </span> Italiano
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown09">
+<!--              <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>-->
+              <a class="dropdown-item" href="#" lang="en" hreflang="it" onclick="setLang('it'); return false"> <span class="flag-icon flag-icon-it"> </span>  Italiano </a>
+              <a class="dropdown-item" href="#" lang="it" hreflang="en" onclick="setLang('en'); return false"> <span class="flag-icon flag-icon-gb"> </span>  English </a>
+            </div>
           </li>
           
         </ul>
+
       </div>
     </div>
   </nav>
@@ -98,12 +142,29 @@
           <h1 class="text-white font-weight-bold">Nicola Ghiselli Photography</h1>
           <hr class="divider my-4">
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5"> A photograph is an image that is recorded that the human eye can perceive. <br/> 
+
+        <!-- JUST AN EXAMPLE! -->
+        <!--          <p class="text-white" lang='it'>Ciao a tutti!</p>-->
+        <!--          <p class="text-white" lang='en'>Hi everyone!</p>-->
+
+        <div lang="en" class="col-lg-8 align-self-baseline">
+
+          <p class="text-white-75 font-weight-light mb-5"> A photograph is an image that is recorded that the human eye can perceive. <br/>
           Main Purpose of a photographs is to capture life moments. <br/> 
-		  I would like those moments to last, to remember them and to share them with others....</p>
+		  I would like those moments to last, I would like to catch them, to remember them and to share them with others....</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Find Out More</a>
+
         </div>
+
+        <div lang="it" class="col-lg-8 align-self-baseline">
+
+          <p class="text-white-75 font-weight-light mb-5"> Una fotografia è un'immagine registrata che l'occhio umano può percepire.
+            Lo scopo principale di una fotografia è catturare i momenti della vita. </br>
+            Vorrei che quei momenti durassero, vorrei catturarli, per ricordarli e condividerli con gli altri....</p>
+          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Scopri di più</a>
+
+        </div>
+
       </div>
     </div>
   </header>
@@ -111,32 +172,40 @@
   <!-- Services Section -->
   <section class="page-section" id="services">
     <div class="container">
-      <!--
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider my-4">
-  	  -->
-      <h2 class="text-center mt-0">It's all about emotions</h2>
+
+      <h2 lang="en" class="text-center mt-0">It's all about emotions</h2>
+      <h2 lang="it" class="text-center mt-0">E' tutta una questione di emozioni</h2>
+
       <hr class="divider my-4">
       <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Our Portfolio</a> -->
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-ring text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Wedding Photography</h3>
+
+            <h3 lang="en" class="h4 mb-2"> Wedding Photography </h3>
+            <h3 lang="it" class="h4 mb-2"> Matrimoni </h3>
+
             <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
           </div>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-baby text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Premaman & NewBorn Photography</h3>
+
+            <h3 lang="en" class="h4 mb-2">Premaman & NewBorn Photography</h3>
+            <h3 lang="it" class="h4 mb-2">Maternità & Neonati</h3>
+
             <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
           </div>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-photo-video text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Digital Books</h3>
+
+            <h3 lang="en" class="h4 mb-2"> Digital Books </h3>
+            <h3 lang="it" class="h4 mb-2"> Shooting Personali </h3>
+
             <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
           </div>
         </div>
@@ -145,21 +214,30 @@
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-football-ball text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Sport Photography</h3>
+
+            <h3 lang="en" class="h4 mb-2">Sport Photography</h3>
+            <h3 lang="it" class="h4 mb-2">Fotografia Sportiva</h3>
+
             <!-- <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p> -->
           </div>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-cocktail text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Events</h3>
+
+            <h3 lang="en" class="h4 mb-2">Events</h3>
+            <h3 lang="it" class="h4 mb-2">Eventi</h3>
+
             <!-- <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p> -->
           </div>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <i class="fas fa-3x fa-camera text-primary mb-4"></i>
-            <h3 class="h4 mb-2">VideoMaking</h3>
+
+            <h3 lang="en" class="h4 mb-2">VideoMaking</h3>
+            <h3 lang="it" class="h4 mb-2">Realizzazione Video</h3>
+
             <!-- <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p> -->
           </div>
         </div>
@@ -171,14 +249,18 @@
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
-      <br/> <br/> 
-      <h2 class="text-center mt-0">Portfolio</h2>
+      <br/> <br/>
+
+      <h2 lang="en" class="text-center mt-0">Portfolio</h2>
+      <h2 lang="it" class="text-center mt-0">Portfolio</h2>
+
       <hr class="divider my-4">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./weddings.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
+
+            <div lang="en" class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
               </div>
@@ -186,12 +268,22 @@
                 Wedding Photography
               </div>
             </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Matrimoni
+              </div>
+            </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./newborn-premaman.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
+
+            <div lang="en" class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
               </div>
@@ -199,12 +291,22 @@
                 Premaman & NewBorn Photography
               </div>
             </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Maternità e Neonati
+              </div>
+            </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./digital-books.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
+
+            <div lang="en" class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
               </div>
@@ -212,12 +314,22 @@
                 Digital Books
               </div>
             </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Shooting Personali
+              </div>
+            </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./sports.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
+
+            <div lang="en" class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
               </div>
@@ -225,12 +337,22 @@
                 Sport Photography
               </div>
             </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Fotografia Sportiva
+              </div>
+            </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./events.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
+
+            <div lang="en" class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
               </div>
@@ -238,17 +360,36 @@
                 Events
               </div>
             </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Eventi
+              </div>
+            </div>
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="./videos.html">
             <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
+
+            <div lang="en" class="portfolio-box-caption p-3">
               <div class="project-category text-white-50">
                 Category
               </div>
               <div class="project-name">
-                Videos
+                VideoMaking
+              </div>
+            </div>
+
+            <div lang="it" class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Categoria
+              </div>
+              <div class="project-name" >
+                Realizzazione Video
               </div>
             </div>
           </a>
@@ -268,7 +409,10 @@
   <!-- Clients -->
   <section class="page-section" id="customers">
     <div class="container">
-      <h2 class="text-center mt-0">Customers</h2>
+
+      <h2 lang="en" class="text-center mt-0">Customers</h2>
+      <h2 lang="it" class="text-center mt-0">Clienti</h2>
+
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-n5">
@@ -316,34 +460,37 @@
           </div>
         </div>
       </div>
-      <!-- <hr class="divider my-4">
-      <h2 class="text-center mt-0">We create emotions</h2>
-      <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">Our Portfolio</a> -->
     </div>
   </section>
 
   <!-- Experiences -->
   <section class="page-section bg-dark text-white" id="experiences">
     <div class="container">
-      <h2 class="text-white text-center mt-0">Experiences</h2>
+
+      <h2 lang="en" class="text-white text-center mt-0">Experiences</h2>
+      <h2 lang="it" class="text-white text-center mt-0">Esperienze</h2>
+
       <hr class="divider my-4">
       <div class="row">
         <div class="text-white col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <h3 class="text-white h4 mb-2">J</h3>
-            <p class="text-primary-light mb-5"><i>"Wow, cool!"</i></p>
+            <p lang="en" class="text-primary-light mb-5"><i>"Wow, cool!"</i></p>
+            <p lang="it" class="text-primary-light mb-5"><i>"Wow, che foto!"</i></p>
           </div>
         </div>
         <div class="text-white col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="mt-5">
             <h3 class="text-white h4 mb-2">B</h3>
-            <p class="text-primary-light  mb-5"><i>"You catched everything!"</i></p>
+            <p lang="en" class="text-primary-light  mb-5"><i>"You catched everything!"</i></p>
+            <p lang="it" class="text-primary-light  mb-5"><i>"Hai colto ogni momento importante!"</i></p>
           </div>
         </div>
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
           <div class="text-white mt-5">
             <h3 class="h4 mb-2">P</h3>
-            <p class="text-primary-light mb-5"><i>"Awersome!"</i></p>
+            <p lang="en" class="text-primary-light mb-5"><i>"Awersome!"</i></p>
+            <p lang="it" class="text-primary-light mb-5"><i>"Incredibile!"</i></p>
           </div>
         </div>
       </div>
@@ -354,22 +501,50 @@
   <section id="team">
     <div class="container-fluid p-0">
       <br/> <br/> <br/>
-      <h2 class="text-center mt-0">Team</h2>
+
+      <h2 lang="en" class="text-center mt-0">Team</h2>
+      <h2 lang="it" class="text-center mt-0">Squadra</h2>
+
       <hr class="divider my-4">
       <div class="row no-gutters">
       	
       	<div class="col-lg-3 col-sm-6">
         	<!-- must be empty -->
         </div>
+
         <div class="col-lg-6 col-sm-6">
           <a class="team-box" href="img/team/fullsize/2.jpg">
             <img class="img-fluid" src="img/team/thumbnails/2.jpg" alt="">
-            <div class="team-box-caption">
-              <div class="project-category text-white-50">
-                Ph
+
+            <div lang="en" class="team-box-caption">
+<!--              <div class="mt-5 class=project-category text-white-50">-->
+<!--                Ph-->
+<!--              </div>-->
+              <div lang="en" class="text-dark m-auto project-name">
+                <p class="text-white">Nicola Ghiselli</p>
+                <br>
+                <p class="ml-5 mr-5">
+                  The study, the refinement of the technique, the passion led me to improve day after day and always look for different viewing angles.
+                  Happiness has a thousand faces and I look for it in the people I meet, in the moments that will not return, in the warmth of a gesture.
+                  My curiosity is fueled by travel and the events of everyday life, my challenge is to always improve.
+                  The shots describe the photographer and I work constantly so that mine can explore the emotions that you give me, and filter them through my eyes, thus reaching the immortality of memory.
+                </p>
               </div>
-              <div class="project-name">
-                Nicola Ghiselli
+            </div>
+
+            <div lang="it" class="team-box-caption">
+<!--              <div class="mt-5 project-category text-white-50">-->
+<!--                Ph-->
+<!--              </div>-->
+              <div lang="it" class="text-dark m-auto project-name">
+                <p class="text-white">Nicola Ghiselli</p>
+                <br>
+                <p class="ml-5 mr-5">
+                  Lo studio, l’affinamento della tecnica, la passione mi hanno portato a migliorare giorno dopo giorno e a cercare sempre angoli di visuale diversi.
+                  La felicità ha mille facce ed io la cerco nelle persone che incontro, negli attimi che non torneranno, nel calore di un gesto.
+                  La mia curiosità è alimentata dai viaggi e dagli eventi della vita quotidiana, la mia sfida è quella di migliorare sempre.
+                  Gli scatti descrivono il fotografo ed io lavoro costantemente perché i miei riescano ad esplorare le emozioni che gli voi mi date, e a filtrarle attraverso i miei occhi, per arrivare, così, all’immortalità del ricordo.
+                </p>
               </div>
             </div>
           </a>
@@ -387,14 +562,43 @@
   <section class="page-section bg-dark" id="about">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
+        <div lang="en" class="col-lg-8 text-center">
+
           <h2 class="text-white mt-0">I've got what you need!</h2>
+
           <hr class="divider light my-4">
           <p class="text-white-50 mb-4">
-          Insert a kind of Bio. <br/>
+            I am an amateur photographer who aspires to make his passion into a serious and professional job.
+            I work mainly in Romagna and Bolognese but I am willing to travel to where my photos take me.
+            I mainly portray people who want to capture a special moment or who want to tell something.
+            Making the gaze of a moment immortal, fixing flashes of happiness in the short span of a moment have become, over time, the job I love.
+            Photography allows me to have a privileged, official and narrative observation point.
+            Experience helps me to manage it with accuracy and to make you, protagonists of my shots, an authentic and precious service.
+            I like to translate the emotions I live with you into images.
+            I consider it a privilege that art has made me a welcome gift.
+           <br/><br/>
           Would you like to have a quotation?</p>
           <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contact me!</a>
         </div>
+
+        <div lang="it" class="col-lg-8 text-center">
+
+        <h2 class="text-white mt-0">Posso offriti quello che cerchi!</h2>
+
+        <hr class="divider light my-4">
+        <p class="text-white-50 mb-4">
+          Sono un fotografo amatoriale che ambisce di fare di questa sua passione un lavoro serio e professionale.
+          Opero soprattutto a in Romagna e nel Bolognese ma sono disposto a viaggiare fin dove dove mi portano le mie fotografie.
+          Ritraggo principalmente persone, che vogliono immortalare un momento speciale o che vogliono raccontare qualcosa.
+          Rendere immortale lo sguardo di un momento, fissare lampi di felicità nel breve volgere di un attimo sono diventati, nel tempo, il mestiere che adoro.
+          La fotografia mi permette di avere un punto d’osservazione privilegiato, ufficiale e narrativo.
+          L'esperienza mi aiuta a gestirlo con accuratezza e a rendere a voi, protagonisti dei miei scatti, un servizio autentico e prezioso.
+          Mi piace tradurre in immagini le emozioni che vivo insieme a voi.
+          Lo considero un privilegio di cui l’arte mi ha fatto gradito dono.
+          <br/><br/>
+          Vuoi avere un preventivo?</p>
+        <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contattami!</a>
+      </div>
       </div>
     </div>
   </section>
@@ -407,22 +611,32 @@
   <section class="page-section" id="contact">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-lg-4 text-center">
-          <h2 class="mt-0">Let's Get In Touch!</h2>
+        <div lang="en" class="col-lg-4 text-center">
+          <h2 class="mt-0"> Let's Get In Touch! </h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">I am ready to start to catch your best moments! Give me a call or send me an email and I will get back to you as soon as possible!</p>
+          <p class="text-muted mb-n3">I am ready to start to catch your best moments! </p> </br>
+          <p class="text-muted mb-5"> Give me a call or send me an email and I will get back to you as soon as possible!</p>
         </div>
+
+        <div lang="it" class="col-lg-4 text-center">
+          <h2 class="mt-0"> Conosciamoci meglio! </h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-n3">Mi piace avere un rapporto profondo e amichevole con i clienti per poter offrire loro il meglio che meritano.</p> </br>
+          <p class="text-muted mb-5"> Contattami e parleremo insieme per come immortalare al meglio il vostro momento speciale! </p>
+        </div>
+
       </div>
       <div class="row">
-        <div class="col-lg-4 mr-auto text-center">
-          <img class="img-fluid-icon"  src="img/icons/whatsapp.png" alt="">
-          <div class="text-primary">+39 348 7137734</div>
-        </div>
 
         <div class="col-lg-4 mr-auto text-center">
           <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
           <!-- Make sure to change the email address in anchor text AND the link below! -->
           <a class="d-block" href="mailto:nicolaghiselliphotography@gmail.com">nicolaghiselliphotography@gmail.com</a>
+        </div>
+
+        <div class="col-lg-4 mr-auto text-center">
+          <img class="img-fluid-icon"  src="img/icons/whatsapp.png" alt="">
+          <div class="text-primary">+39 348 7137734</div>
         </div>
        
         <div class="col-lg-4 mr-auto text-center">
@@ -479,6 +693,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -488,6 +704,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.js"></script>
+
 
 </body>
 
