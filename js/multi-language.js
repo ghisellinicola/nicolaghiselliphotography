@@ -1,5 +1,5 @@
 let langs = ['en','it'];
-let lang = 'en';
+let lang = 'it';
 
 setLangStyles(lang);
 
