@@ -29,16 +29,19 @@
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-  <!-- Flags -->
-  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">-->
-  <link href="css/flag-icon.css" rel="stylesheet">
-
   <!-- Theme CSS - Includes Bootstrap -->
   <!-- <link href="css/creative.min.css" rel="stylesheet"> -->
   <link href="css/creative.css" rel="stylesheet">
 
+    <!-- Flags -->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">-->
+    <link href="css/flag-icon.css" rel="stylesheet">
 
+    <!-- Multi Language Handler -->
   <script src="js/multi-language.js"></script>
+
+    <!-- Fragments Handler -->
+    <script src="js/page-includer.js"></script> <!-- does not work properly! -->
 
 </head>
 
@@ -126,12 +129,14 @@
               <a class="dropdown-item" href="#" lang="it" hreflang="en" onclick="setLang('en'); return false"> <span class="flag-icon flag-icon-gb"> </span>  English </a>
             </div>
           </li>
-          
+
         </ul>
 
       </div>
     </div>
   </nav>
+
+<!--    <div data-include="fragments/homepage-navbar.html"></div>-->
 
   <!-- Masthead -->
   <header class="masthead">

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 
 <head>
 
@@ -21,8 +21,10 @@
   <link href="vendor/fontawesome-free/css/fontawesome.css" rel="stylesheet" type="text/css">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <!--<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">-->
+  <!--<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+  <link href="css/MerriweaterSans.css" rel="stylesheet">
+  <link href='css/Merriweather.css' rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
@@ -31,6 +33,13 @@
   <!-- <link href="css/creative.min.css" rel="stylesheet"> -->
   <link href="css/creative.css" rel="stylesheet">
 
+  <!-- Flags -->
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">-->
+  <link href="css/flag-icon.css" rel="stylesheet">
+
+  <!-- Multi Language Handler -->
+  <script src="js/multi-language.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -38,47 +47,71 @@
 	<!-- 4 COLUMNS - col-lg-3 col-md-6 text-center -->
 	<!-- 3 COLUMNS - col-lg-4 ml-auto text-center mb-5 mb-lg-0 -->
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="ml-icon" href="https://www.facebook.com/nicolaghiselliphotography/">
-      <img class="img-fluid-icon"  src="img/icons/facebook.png" alt="">
-      </a>
-      <a class="mr-5" href="https://www.instagram.com/nicolaghiselli_bnw/?hl=it">
-        <img class="img-fluid-icon"  src="img/icons/instagram.png" alt="">
-      </a>
-      <a class="mr-icon" href="https://www.instagram.com/nicolaghiselli/?hl=it">
-        <img class="img-fluid-icon"  src="img/icons/instagram.png" alt="">
-      </a>
-      <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Nicola Ghiselli Photography</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+      <div class="container">
+        <a class="ml-icon" href="https://www.facebook.com/nicolaghiselliphotography/">
+          <img class="img-fluid-icon"  src="img/icons/facebook.png" alt="">
+        </a>
+        <a class="mr-5" href="https://www.instagram.com/nicolaghiselli_bnw/?hl=it">
+          <img class="img-fluid-icon"  src="img/icons/instagram.png" alt="">
+        </a>
+        <a class="mr-icon" href="https://www.instagram.com/nicolaghiselli/?hl=it">
+          <img class="img-fluid-icon"  src="img/icons/instagram.png" alt="">
+        </a>
+        <a class="navbar-brand js-scroll-trigger" href="index.html#page-top">Nicola Ghiselli Photography</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto my-2 my-lg-0">
 
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#customers">Customers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#portfolio">Come back to Portfolio</a>
-          </li>
-           <!--
+            <span class="mx-5"></span>
+            <span class="mx-5"></span>
+
+            <li class="nav-item">
+              <a lang="en" class="nav-link js-scroll-trigger" href="#customers">Customers</a>
+              <a lang="it" class="nav-link js-scroll-trigger" href="#customers">Clienti</a>
+            </li>
+            <li class="nav-item">
+              <nobr><a lang="en" class="nav-link js-scroll-trigger" href="index.html#portfolio">Come back to Portfolio</a></nobr>
+              <nobr><a lang="it" class="nav-link js-scroll-trigger" href="index.html#portfolio">Torna al Portfolio</a></nobr>
+            </li>
+            <!--
+            <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="index.html#experiences">Experiences</a>
+           </li>
            <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#experiences">Experiences</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
-          </li>
-          -->
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="index.html#contact">Contact</a>
-          </li>
-          
-        </ul>
+             <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
+           </li>
+           -->
+            <li class="nav-item">
+              <a lang="en" class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a lang="it" class="nav-link js-scroll-trigger" href="#contact">Contatti</a>
+            </li>
+
+            <span class="mx-5"></span>
+            <span class="mx-5"></span>
+
+
+            <li class="nav-item dropdown pl-10 mr-lg-n5" id="dropdown09">
+              <a lang="en" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!--id="dropdown09"-->
+                <span class="flag-icon flag-icon-gb"  href="#" hreflang="en" onclick="setLang('en'); return false"> </span> English
+              </a>
+              <a lang="it" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <!--id="dropdown09"-->
+                <span class="flag-icon flag-icon-it"  href="#" hreflang="it" onclick="setLang('it'); return false"> </span> Italiano
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdown09">
+                <!--              <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>-->
+                <a class="dropdown-item" href="#" lang="en" hreflang="it" onclick="setLang('it'); return false"> <span class="flag-icon flag-icon-it"> </span>  Italiano </a>
+                <a class="dropdown-item" href="#" lang="it" hreflang="en" onclick="setLang('en'); return false"> <span class="flag-icon flag-icon-gb"> </span>  English </a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
   <!-- Masthead -->
   <header class="masthead-digital-books">
@@ -87,13 +120,20 @@
         <div class="col-lg-10 align-self-end">
           <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> 
           
-          <h2 class="text-white font-weight-bold">Digital Books</h2>
+          <h2 lang="en" class="text-white font-weight-bold">Digital Books</h2>
+          <h2 lang="it" class="text-white font-weight-bold">Shooting personali</h2>
           
           <hr class="divider my-4">
         </div>
-        <div class="col-lg-8 align-self-baseline">
+
+        <div lang="en" class="col-lg-8 align-self-baseline">
           <p class="text-white-75 font-weight-light mb-5"> To remember your special moments! </p>
           <a class="btn btn-primary btn-xl js-scroll-trigger" href="#customers">Show albums</a>
+        </div>
+
+        <div lang="it" class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5"> Per ricordare i tuoi momenti speciali! </p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#customers">Mostra albums</a>
         </div>
       </div>
     </div>
@@ -102,28 +142,34 @@
     <!-- Clients -->
     <section class="page-section" id="customers">
       <div class="container">
-        <h2 class="text-center mt-0">Customers</h2>
+
+        <h2 lang="en" class="text-center mt-0">Customers</h2>
+        <h2 lang="it" class="text-center mt-0">Customers</h2>
+
         <hr class="divider my-4">
         <div class="row">
           <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
             <div class="mt-5">
               <i class="fas fa-4x fa-photo-video text-primary mb-4"></i>
               </br>
-              <a class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Lucia's Graduation</a>
+              <a lang="en" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Lucia's Graduation</a>
+              <a lang="it" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Laurea Lucia</a>
             </div>
           </div>
           <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
             <div class="mt-5">
               <i class="fas fa-4x fa-photo-video text-primary mb-4"></i>
               </br>
-              <a class="h3 mb-2 js-scroll-trigger" href="#benedettagraduation">Benedetta's Graduation</a>
+              <a lang="en" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Benedetta's Graduation</a>
+              <a lang="it" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Laurea Benedetta</a>
             </div>
           </div>
           <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
             <div class="mt-5">
               <i class="fas fa-4x fa-photo-video text-primary mb-4"></i>
               </br>
-              <a class="h3 mb-2 js-scroll-trigger" href="#martinagraduation">Martina's Graduation</a>
+              <a lang="en" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Martina's Graduation</a>
+              <a lang="it" class="h3 mb-2 js-scroll-trigger" href="#luciagraduation">Laurea Martina</a>
             </div>
           </div>
         </div>
@@ -169,7 +215,9 @@
 
       <div class="container-fluid p-0" id="luciagraduation">
 
-        <h2 class="text-center mt-0" > Lucia's Graduation </h2>
+        <h2 lang="en" class="text-center mt-0" > Lucia's Graduation </h2>
+        <h2 lang="it" class="text-center mt-0" > Laurea Lucia </h2>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -192,7 +240,9 @@
 
       <div class="container-fluid p-0" id="benedettagraduation">
 
-        <h3 class="text-center mt-0" > Benedetta's Graduation </h3>
+        <h3 lang="en" class="text-center mt-0" > Benedetta's Graduation </h3>
+        <h3 lang="it" class="text-center mt-0" > Laurea Benedetta </h3>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -215,7 +265,9 @@
 
       <div class="container-fluid p-0" id="martinagraduation">
 
-        <h3 class="text-center mt-0" > Martina's Graduation </h3>
+        <h3 lang="en" class="text-center mt-0" > Martina's Graduation </h3>
+        <h3 lang="it" class="text-center mt-0" > Laurea Martina's </h3>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -239,6 +291,7 @@
       <div class="container-fluid p-0" id="lucia">
 
         <h3 class="text-center mt-0" > Lucia </h3>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -262,6 +315,7 @@
       <div class="container-fluid p-0" id="jessica">
 
         <h3 class="text-center mt-0" > jessica </h3>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -285,6 +339,7 @@
       <div class="container-fluid p-0" id="xena">
 
         <h3 class="text-center mt-0" > Xena </h3>
+
         <hr class="divider my-4">
         <div class="row no-gutters">
 
@@ -307,7 +362,10 @@
     <!-- Experiences -->
   <section class="page-section" id="experiences">
     <div class="container">
-      <h2 class="text-center mt-0">Experiences</h2>
+
+      <h2 lang="en" class="text-center mt-0">Experiences</h2>
+      <h2 lang="it" class="text-center mt-0">Esperienze</h2>
+
       <hr class="divider my-4">
       <div class="row">
         <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
