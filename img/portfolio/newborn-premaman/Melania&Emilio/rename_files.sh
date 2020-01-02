@@ -2,7 +2,7 @@
 
 n=1
 
-ls -1 | grep MG | (while read i
+ls -1 |  (while read i #grep MG |
 do
 	cp $i $n.jpg
 	echo $n
