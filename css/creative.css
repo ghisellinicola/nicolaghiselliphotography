@@ -37,6 +37,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
+  /*--breakpoint-xxl: 1600px;*/
   --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -587,6 +588,12 @@ pre code {
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1240px;
   }
 }
 
@@ -1233,7 +1240,7 @@ pre code {
 @media (min-width: 1200px) {
   .col-xl {
     flex-basis: 0;
-    flex-grow: 1;
+    flex-grow: 0;
     max-width: 100%;
   }
   .col-xl-auto {
@@ -2902,8 +2909,8 @@ input[type="button"].btn-block {
   z-index: 1000;
   display: none;
   float: left;
-  min-width: 10rem;
-  padding: 0.5rem 0;
+  min-width: 4rem;
+  padding: 0.125rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -4158,6 +4165,7 @@ input[type="button"].btn-block {
     padding-left: 0;
   }
 }
+
 
 @media (min-width: 1200px) {
   .navbar-expand-xl {
@@ -7593,6 +7601,11 @@ button.bg-dark:focus {
   margin-left: 3rem !important;
 }
 
+.ml-10,
+.mx-10 {
+  margin-left: 5rem !important;
+}
+
 .p-0 {
   padding: 0 !important;
 }
@@ -9591,8 +9604,8 @@ html {
   height: 100%;
 }
 
-.text-white-75 {
-  color: rgba(255, 255, 255, 0.75);
+. text-white-75 {
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 hr.divider {
@@ -9657,6 +9670,7 @@ hr.light {
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
+    margin-left: -5rem;
   }
   #mainNav .navbar-brand:hover {
     color: #fff;
@@ -9688,7 +9702,6 @@ hr.light {
     color: #f4623a;
   }
 }
-
 
 header.masthead {
   padding-top: 10rem;
@@ -9724,7 +9737,6 @@ header.masthead h1 {
     font-size: 3.5rem;
   }
 }
-
 
 header.masthead-wedding {
   padding-top: 10rem;
