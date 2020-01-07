@@ -1,8 +1,8 @@
 #!/bin/bash
 
-n=1
+n=21
 
-ls -1 | grep MG | (while read i
+ls -1 | grep 2020 | (while read i
 do
 	cp $i $n.jpg
 	echo $n
