@@ -47,11 +47,14 @@
   <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">-->
   <link href="css/flag-icon.css" rel="stylesheet">
 
+    <!-- Custom scripts for a cool infographic -->
+    <link href="css/infographic.css" rel="stylesheet">
+
   <!-- Multi Language Handler -->
   <script src="js/multi-language.js"></script>
 
   <!-- Fragments Handler -->
-  <script src="js/page-includer.js"></script> <!-- does not work properly! -->
+<!--  <script src="js/page-includer.js"></script> &lt;!&ndash; does not work properly! &ndash;&gt;-->
 
 </head>
 
@@ -636,26 +639,107 @@
 
       <div lang="it" class="col-lg-8 text-center">
 
-        <h2 class="text-white mt-0">Posso offriti quello che cerchi!</h2>
+        <h2 class="text-white">Posso offriti quello che cerchi!</h2>
 
         <hr class="divider light my-4">
-        <p class="text-white-50 mb-4">
+        <p class="text-white-75">
           Sono un fotografo amatoriale che ambisce di fare di questa sua passione un lavoro serio e professionale. <br/><br/>
-          <b>Posizionamento</b>  <br>
+          <b class="text-white h5">Posizionamento</b>  <br>
           Opero soprattutto in Romagna e nel Bolognese ma sono disposto a viaggiare fin dove dove mi portano le mie fotografie.<br><br>
 
-          <b>Servizi</b>  <br>
+          <b class="text-white h5">Servizi</b>  <br>
           Ritraggo principalmente persone, che vogliono immortalare un momento speciale o che vogliono raccontare qualcosa.<br>
           Rendere immortale lo sguardo di un momento, fissare lampi di felicità nel breve volgere di un attimo sono diventati, nel tempo, il mestiere che adoro.<br>
           La fotografia mi permette di avere un punto d’osservazione privilegiato, ufficiale e narrativo.<br><br>
 
-          <b>Metodo di lavoro</b><br>
+          <b class="text-white h5">Metodo di lavoro</b><br>
           L'esperienza mi aiuta a gestirlo con accuratezza e a rendere a voi, protagonisti dei miei scatti, un servizio autentico e prezioso.<br>
           Mi piace tradurre in immagini le emozioni che vivo insieme a voi.<br>
           Lo considero un privilegio di cui l’arte mi ha fatto gradito dono.
-          <br/><br/><br>
-          Vuoi avere un preventivo?</p>
-        <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">Contattami!</a>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="page-section bg-dark" id="statistics">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div id="discoveryChart">
+
+        <div id="pieContainer">
+          <svg id="chart" x="0px" y="0px" width="239.3px" height="239px" viewBox="0 0 239.3 239">
+            <path id="orange" d="M119.5,58c29.5,0,54.2,20.7,60.2,48.4l56.9-12.1C225,40.4,176.9,0,119.5,0c-0.1,0,0.5,0-0.5,0v58.1
+                C120,58.1,119.4,58,119.5,58z"/>
+            <path id="green" d="M58,119.5c0-33.9,28-61.3,61-61.5V0C54,0.1,0,53.6,0,119.5c0,29.1,10.6,55.9,27.9,76.6l44.4-37.3
+                C63.4,148.1,58,134.4,58,119.5z"/>
+            <path id="red" d="M179.8,106.5c0.9,4.2,1.4,8.6,1.4,13c0,24.3-14.1,45.3-34.6,55.3l25.5,52.2c39.8-19.4,67.2-60.2,67.2-107.5
+                c0-8.6-0.9-17-2.7-25.1L179.8,106.5z"/>
+            <path id="blue" d="M119.8,181c-19,0-36-8.6-47.3-22.2L28,196.1c21.9,26.2,54.9,42.9,91.7,42.9c18.8,0,36.5-4.3,52.3-12
+                l-25.5-52.2C138.5,178.8,129.4,181,119.8,181z"/>
+          </svg>
+
+          <svg id="lines" width="69.1px" height="69.1px" viewBox="0 0 69.1 69.1">
+            <line id="line1" x1="34.5" y1="34.5" x2="0.7" y2="0.7"/>
+            <line id="line2" x1="34.5" y1="34.5" x2="68.4" y2="0.7"/>
+            <line id="line3" x1="34.5" y1="34.5" x2="0.7" y2="68.4"/>
+            <line id="line4" x1="34.5" y1="34.5" x2="68.4" y2="68.4"/>
+          </svg>
+        </div><!--end pie container-->
+
+        <div id="discoveryTextContainer" class="mb-n5">
+          <div id="description">
+            <h2 lang="it" class="text-primary h3">Statistiche</h2>
+            <p lang="it" class="text-white-75">Fai clic o tocca le aree del grafico a torta per scoprire le opinioni dei clienti. </p>
+            <p lang="it" class="text-white-50 font-italic mt-10"> * I dati sono calcolati sulla base di un breve questionario fatto compilare dopo ogni servizio effettuato. </p>
+
+            <h2 lang="en" class="text-primary h3">Statistics</h2>
+            <p lang="en" class="text-white-75">Click or tap on the areas of the pie chart to discover clients opinions.</p>
+            <p lang="en" class="text-white-50 font-italic mt-10"> * Data are calculated on the basis of a short questionnaire completed after each service performed. </p>
+          </div>
+          <div id="titleOne" class="title">
+            <h2 class="h-100"> 100 % </h2>
+            <p class="text-white-50">
+              <br> Il 100 % dei clienti ha espresso un parere positivo sul servizio ricevuto. <br>
+            </p>
+            <p lang="it" class="text-white-50 font-italic mt-10"> * A tal fine è stato considerato il rapporto col fotografo durante lo shooting,
+              il gradimento delle foto e il gradimento dei serivzi post-servizio. </p>
+          </div>
+          <div id="titleTwo" class="title">
+            <h2> 76 %</h2>
+            <p class="text-white-50">
+              <br> Il 76 % dei clienti è completamente soddisfatto (voto 10/10) del rapporto col fotografo prima-durante-dopo lo shooting
+              <br> (socievolezza, disponibilità, gentilezza ecc.).
+              <br> <br> Il restante 24 % ha espesso pareri compresi tra 8/10 e 9/10, essendo quindi generalmente soddisfatta.
+            </p>
+          </div>
+          <div id="titleThree" class="title">
+            <h2> 76 % </h2>
+            <p class="text-white-50">
+              <br> Il 76 % dei clienti è completamente soddisfatto (voto 10/10) delle foto ricevute.
+              <br> <br> Il restante 18 % ha espesso pareri pari a 8/10, essendo quindi generalmente soddisfatta.
+            </p>
+          </div>
+          <div id="titleFour" class="title">
+            <h2> 82 % </h2>
+            <p class="text-white-50">
+              <br> L' 82 % dei clienti è completamente soddisfatto (voto 10/10) dei servizi ricevuti dopo aver fatto le foto
+              <br> (stampe su forex, stampe su carta, album, quadri ecc.).
+              <br> <br> Il restante 18 % ha espesso pareri compresi tra 6/10 e 9/10, essendo quindi generalmente soddisfatta.
+            </p>
+          </div>
+        </div>
+
+        <div id="preloader" class="mt-n10"></div>
+
+      </div><!--end discovery chart-->
+
+        <br/><br/>
+
+
+      <div lang="it" class="col-lg-8 text-center">
+        <p class="mt-10 mb-5 text-white-75 h5">Vuoi avere un preventivo?</p>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Contattami!</a>
       </div>
     </div>
   </div>
@@ -719,6 +803,11 @@
 
 <!-- Custom scripts for this template -->
 <script src="js/creative.js"></script>
+
+<!-- Custom scripts for a cool infographic -->
+<!--<script src="js/jquery-3.4.1.js"></script>-->
+<script src="js/TweenMax.js"></script>
+<script src="js/infographic.js"></script>
 
 </body>
 </html>
