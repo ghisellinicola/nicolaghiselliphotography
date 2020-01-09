@@ -110,9 +110,9 @@ body {
 .title h2 {
     position: absolute;
     font-family: 'Fjalla One';
-    font-size: 28px;
-    margin-top: 14px;
-    left: 20px;
+    font-size: 40px;
+    margin-top: 5px;
+    left: 50px;
     visibility: hidden;
 }
 
