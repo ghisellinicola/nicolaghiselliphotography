@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /index.html
+Allow: /weddings.html
+Allow: /newborn-premaman.html
+Allow: /digital-books.html
+Allow: /events.html
+Allow: /sports.html
+Allow: /videos.html
+Disallow: /inner-album-template.html
