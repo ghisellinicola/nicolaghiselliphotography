@@ -7,3 +7,4 @@ Allow: /events.html
 Allow: /sports.html
 Allow: /videos.html
 Disallow: /inner-album-template.html
+Sitemap: https://nicolaghiselliphotography.ovh/sitemap.xml
