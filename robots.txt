@@ -1,3 +1,4 @@
+Sitemap: https://nicolaghiselliphotography.ovh/sitemap.xml
 User-Agent: *
 Allow: /index.html
 Allow: /weddings.html
@@ -7,4 +8,3 @@ Allow: /events.html
 Allow: /sports.html
 Allow: /videos.html
 Disallow: /inner-album-template.html
-Sitemap: https://nicolaghiselliphotography.ovh/sitemap.xml
