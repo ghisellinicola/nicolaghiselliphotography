@@ -564,7 +564,7 @@ pre code {
 }
 
 .container {
-  width: 100%;
+  width: 98%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -602,7 +602,7 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 98%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -815,7 +815,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 600px) { /*578*/
+@media (min-width: 578px) { /*578*/
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -957,7 +957,7 @@ pre code {
   }
 }
 
-@media (min-width: 800px) { /*768*/
+@media (min-width: 768px) { /*768*/
   .col-md {
     flex-basis: 0;
     flex-grow: 1;
@@ -1099,7 +1099,7 @@ pre code {
   }
 }
 
-@media (min-width: 1180px) { /*992*/
+@media (min-width: 1080px) { /*992*/
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -1241,7 +1241,7 @@ pre code {
   }
 }
 
-@media (min-width: 1380px) {
+@media (min-width: 1280px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 0;
@@ -1382,6 +1382,8 @@ pre code {
     margin-left: 91.66667%;
   }
 }
+
+/*region TABLE*/
 
 .table {
   width: 100%;
@@ -1667,7 +1669,9 @@ pre code {
   background-color: rgba(255, 255, 255, 0.075);
 }
 
-@media (max-width: 600px) { /*576*/
+/*endregion*/
+
+@media (max-width: 578px) { /*576*/
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -1679,7 +1683,7 @@ pre code {
   }
 }
 
-@media (max-width: 800px) { /*768*/
+@media (max-width: 768px) { /*768*/
   .table-responsive-md {
     display: block;
     width: 100%;
