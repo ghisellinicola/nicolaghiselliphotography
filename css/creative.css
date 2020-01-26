@@ -573,31 +573,31 @@ pre code {
 
 @media (min-width: 600px) { /*576*/
   .container {
-    max-width: 590px; /*540*/
+    max-width: 690px; /*540*/
   }
 }
 
 @media (min-width: 800px) { /*768*/
   .container {
-    max-width: 780px; /*720*/
+    max-width: 880px; /*720*/
   }
 }
 
 @media (min-width: 1200px) { /*992*/
   .container {
-    max-width: 1150px; /*960*/
+    max-width: 1250px; /*960*/
   }
 }
 
 @media (min-width: 1400px) { /*1200*/
   .container {
-    max-width: 1330px; /*1140*/
+    max-width: 1430px; /*1140*/
   }
 }
 
 @media (min-width: 1400px) { /*1400*/
   .container {
-    max-width: 1240px; /*1240*/
+    max-width: 1540px; /*1240*/
   }
 }
 
