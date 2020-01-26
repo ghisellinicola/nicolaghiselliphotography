@@ -10016,11 +10016,28 @@ header.masthead-videos {
   opacity: 1;
 }
 
-
 #itsubtitle{
   font-size: large;
 }
 
 #ensubtitle{
   font-size: large;
+}
+
+/* TODO: check this better!*/
+
+#customers .container-fluid .client-box {
+  position: relative;
+  display: block;
+  /*
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  */
 }
