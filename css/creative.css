@@ -68,6 +68,10 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+
+  /*min-width:600px;        !* Suppose you want minimum width of 1000px *!*/
+  /*width: auto !important;  !* Firefox will set width as auto *!*/
+  /*width: 600px;            !* As IE6 ignores !important it will set width as 1000px; *!*/
 }
 
 [tabindex="-1"]:focus {
