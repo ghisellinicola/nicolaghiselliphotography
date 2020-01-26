@@ -33,10 +33,10 @@
   --light: #f8f9fa;
   --dark: #343a40;
   --breakpoint-xs: 0;
-  --breakpoint-sm: 600px; /*576px*/
-  --breakpoint-md: 800px; /*768px*/
-  --breakpoint-lg: 1200px; /*992px*/
-  --breakpoint-xl: 1400px; /*1200px*/
+  --breakpoint-sm: 576px; /*576px*/
+  --breakpoint-md: 768px; /*768px*/
+  --breakpoint-lg: 1100px; /*992px*/
+  --breakpoint-xl: 1300px; /*1200px*/
   /*--breakpoint-xxl: 1600px;*/
   --font-family-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -70,7 +70,7 @@ body {
   background-color: #fff;
 
   /*min-width:600px;        !* Suppose you want minimum width of 1000px *!*/
-  /*width: auto !important;  !* Firefox will set width as auto *!*/
+  /*width: auto% !important;  !*!* Firefox will set width as auto *!*!*/
   /*width: 600px;            !* As IE6 ignores !important it will set width as 1000px; *!*/
 }
 
@@ -815,11 +815,11 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 578px) { /*578*/
+@media (min-width: 576px) { /*578*/
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
-    max-width: 100%;
+    max-width: 100%; /*100*/
   }
   .col-sm-auto {
     flex: 0 0 auto;
@@ -1671,7 +1671,7 @@ pre code {
 
 /*endregion*/
 
-@media (max-width: 578px) { /*576*/
+@media (max-width: 576px) { /*576*/
   .table-responsive-sm {
     display: block;
     width: 100%;
@@ -2940,18 +2940,18 @@ input[type="button"].btn-block {
   left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) { /**/
   .dropdown-menu-sm-left {
     right: auto;
     left: 0;
   }
-  .dropdown-menu-sm-right {
+  .dropdown-menu-sm-right { /**/
     right: 0;
     left: auto;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { /**/
   .dropdown-menu-md-left {
     right: auto;
     left: 0;
@@ -2962,7 +2962,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { /**/
   .dropdown-menu-lg-left {
     right: auto;
     left: 0;
@@ -2973,7 +2973,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1200px) { /**/
   .dropdown-menu-xl-left {
     right: auto;
     left: 0;
@@ -9676,7 +9676,7 @@ hr.light {
   color: #f4623a !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 950px) { /*992*/
   #mainNav {
     box-shadow: none;
     background-color: transparent;
