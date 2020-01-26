@@ -571,33 +571,33 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 600px) { /*576*/
   .container {
-    max-width: 540px;
+    max-width: 590px; /*540*/
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) { /*768*/
   .container {
-    max-width: 720px;
+    max-width: 780px; /*720*/
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) { /*992*/
   .container {
-    max-width: 960px;
+    max-width: 1150px; /*960*/
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) { /*1200*/
   .container {
-    max-width: 1140px;
+    max-width: 1330px; /*1140*/
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1400px) { /*1400*/
   .container {
-    max-width: 1240px;
+    max-width: 1240px; /*1240*/
   }
 }
 
@@ -815,7 +815,7 @@ pre code {
   margin-left: 91.66667%;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 600px) { /*578*/
   .col-sm {
     flex-basis: 0;
     flex-grow: 1;
@@ -1099,7 +1099,7 @@ pre code {
   }
 }
 
-@media (min-width: 1100px) { /*992*/
+@media (min-width: 1180px) { /*992*/
   .col-lg {
     flex-basis: 0;
     flex-grow: 1;
@@ -1241,7 +1241,7 @@ pre code {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1380px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 0;
