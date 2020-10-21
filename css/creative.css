@@ -6300,6 +6300,11 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
+.bg-opaque {
+  background: linear-gradient(to top, rgba(116, 100, 87, 0.9) 30%, rgba(92, 77, 66, 0.9) 100%), url("../img/casual-bg-2.jpg");
+
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
