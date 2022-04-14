@@ -2,7 +2,7 @@ Sitemap: https://nicolaghiselliphotography.ovh/sitemap.xml
 User-Agent: *
 Allow: /index.html
 Allow: /weddings.html
-Allow: /newborn-premaman.html
+Allow: /family.html
 Allow: /digital-books.html
 Allow: /events.html
 Allow: /sports.html

@@ -57,7 +57,7 @@
   });
 
   // Magnific popup calls
-  $('#portfolio-newborn-premaman').magnificPopup({
+  $('#portfolio-family').magnificPopup({
     delegate: 'a',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
