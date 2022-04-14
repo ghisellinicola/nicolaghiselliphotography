@@ -9820,10 +9820,10 @@ header.masthead-digital-books {
 }
 
 
-header.masthead-newborn-premaman {
+header.masthead-family {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead-newborn-premaman-ld.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead-family-ld.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -9831,22 +9831,22 @@ header.masthead-newborn-premaman {
 }
 
 @media (min-width: 992px) {
-  header.masthead-newborn-premaman {
+  header.masthead-family {
     height: 100vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
   }
-  header.masthead-newborn-premaman p {
+  header.masthead-family p {
     font-size: 1.15rem;
   }
-  header.masthead-newborn-premaman h1 {
+  header.masthead-family h1 {
     font-size: 3rem;
   }
 }
 
 @media (min-width: 1200px) {
-  header.masthead-newborn-premaman h1 {
+  header.masthead-family h1 {
     font-size: 3.5rem;
   }
 }
